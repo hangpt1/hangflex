@@ -1,0 +1,532 @@
+.flexnav{
+    display: flex;
+    height: 120px;  
+    background-image: url("./html_css_case_study_lab_1_2-main/");
+}
+.img1{
+    width: 37%;
+    padding-left: 40px;
+    padding-top: 5px;
+    
+    
+
+}
+.menu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+.menu1{
+    width: 50px;
+    margin-left: 40px;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.slice{
+    width: 100%;
+    position: relative;
+}
+.content{
+    position: absolute;
+    bottom: 50px;
+    padding-left: 100px;
+    color: rgb(46, 187, 187);
+    width: 49%; 
+}
+.content h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+.content button{
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 187, 187);
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.content button:hover{
+    background-color: white; /* white */
+    border: 1px solid;
+    color: rgb(46, 187, 187);
+}
+.aboutus{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    height: 550px;
+
+    background-color: rgb(245, 247, 247);
+}
+.img2{
+    position: absolute;
+    width: 40%;
+    height: 450px;
+    margin-left: 820px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.aboutus div{
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.aboutus button{
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 187, 187);
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.aboutus button:hover {
+    background-color: white; /* white */
+    border: 1px solid;
+    color: rgb(46, 187, 187);
+  }
+.aboutus h3{
+    color: rgb(3, 137, 106);
+    
+}
+.ourservice{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px; 
+    position: relative;
+    
+}
+.serviceh1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    position: relative;
+}
+.servicediv{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 100px;
+    position: relative;
+}
+.serviceimg{
+    width: 400px;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 5px;position: relative;
+}
+.servicect{
+    width: 400px ;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.ourservice::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    background-image: url(".html_css_case_study_lab_1_2-main/image/menu/10.jpg");
+    filter: brightness(0.4)
+}
+.osm{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    height: 700px;
+    margin-top: 50px;
+}
+.osm h1{
+    margin-left: 590px;
+    margin-top: 50px;
+    width: 100%;
+    background-color:aliceblue ;
+}
+
+
+.osm div{background-color: aliceblue;
+    width: 450px;
+    margin-left: 23px;
+    height: 150px;
+    font-size: 15px;
+  }
+  .sf{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+  .sf img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+
+.sf h5{
+    font-size: 20px;
+    position: absolute;
+    padding-left: 135px;
+    padding-top: 20px;
+    
+
+}
+.sf p{
+    position: absolute;
+    width: 70%;
+    margin-top: 65px;
+    margin-left: 135px;
+    font-size: 15px;
+    
+}
+  
+.oh{
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.oh::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    background-image: url("./html_css_case_study_lab_1_2-main/image/09.jpg");
+    filter: brightness(0.6)
+}
+.ohdiv1{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.ohdiv1 h1{
+    color:rgb(4, 230, 196);
+    font-size: 40px;
+}
+.ohdiv1 h3{
+    color:rgb(4, 230, 196);
+    font-size: 20px;
+}
+.ohdiv2{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.og{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    margin-top: 50px;
+    height: 1000px;
+}
+.ogimg{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.og img{
+    width: 310px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.latest{
+    position: relative;
+    margin-top: 50px;
+    height: 1000px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.latest::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    background-image: url("./html_css_case_study_lab_1_2-main/image/blog/01.jpg");
+    filter: brightness(0.7);
+}
+.latest div{
+    position: relative;
+    width: 25%;
+    height: 400px;
+    padding: 20px;
+    border: 0.1px solid white;
+    margin-left:20px ;
+    margin-top: 50px;
+    color: aliceblue;
+
+}
+.latest div:hover{
+    background-image: url("./html_css_case_study_lab_1_2-main/image/blog/02.jpg") ;
+    width: 25%;
+}
+.allaboutcoffe{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 4px;
+    
+}
+.latestdiv1{
+    text-align: center;
+    border: none !important;
+    background-image: none !important;
+}
+.latestdiv1 h1{
+    color:rgb(4, 230, 196) ;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.latestdiv1 p{
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+
+
+.rd{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(244, 239, 239);
+}
+.rddiv{
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 25px;
+    
+}
+.rddiv img{
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.rh{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    color: rgb(232, 214, 8);
+
+}
+
+.moc{
+    position: relative;
+    margin-top: 50px;
+    height: 2000px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.moc::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    background-image: url("./html_css_case_study_lab_1_2-main/image/chefs/04.jpg");
+    filter: brightness(0.5);
+}
+.moc h1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(9, 212, 50);
+   
+
+}
+
+.moc div{
+    position: relative;
+    width: 40%;
+    margin-top: 0px;
+    height: 600px;
+    border-radius: 8px;
+    justify-content: center;
+    color: aliceblue;
+
+}
+.mocct{
+    padding-left: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+.moc img{
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+
+}
+.ctus{
+    position: relative;
+    margin-top: 50px;
+    height: 800px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ctus h1{
+    margin: 50px;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+.ctusbaongoai{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border: 1px solid red;
+    
+    
+    
+}
+
+
+.ctus1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+    
+    
+}
+.ctus1 textarea{
+    width: 500px;
+    height: 100px;}
+
+
+
+
+.text textarea{
+    width: 200px;
+    margin-top: 0px;
+    height: 200px;
+    border-radius: 20px;
+
+    
+}
+
+
+
+.ctus1 button{
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 187, 187);
+    border-radius: 30px;
+    border: none;
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+.ctus1 button:hover{
+    background-color: white; /* white */
+    border: 1px solid;
+    color: rgb(46, 187, 187);
+}
+.metqua{
+    position: relative;
+    margin-top: 50px;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.metqua::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    background-image: url("./html_css_case_study_lab_1_2-main/image/10.jpg");
+    filter: brightness(0.5);
+}
+.metquadiv{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.metquadivicon{
+    size: 20px;
+}
+.metquadiv div{
+    width: 400px;
+    height: 400px;
+    list-style-type: none;
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+.caicuoi{
+    position: relative;
+    margin-top: 50px;
+    height: 600px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+    
